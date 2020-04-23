@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solucion de problemas</title>
+</head>
+<body>
+    <h1>solucion de problemas</h1>
+        
+    <!--esta es la descripcion del problema-->
+    <p>programa que recibe 2 variables, suma las variables y muestra el resultado de la suma</p>
+
+    <!--analisis basico-->
+    <p>los datos de entrada seran numeros enteros </p>
+       <p>se sumaran las variables</p>
+
+       <!--input´s para recivir las variables-->
+       <p><label for="a">ingrese el primer numero</label>
+       <input type="number" id="a" name="a"><br></p>
+
+       <p><label for="b">ingrese el segundo numero</label>
+       <input type="number" id="b" name="b"><br></p>
+
+       <!--boton que llamara a la funcion sumar-->
+       <button onclick="sumar()" >sumar</button><br>
+
+       <!--campo donde se mostrara el resultado-->
+       <p><label for="resultado">resultado de la suma</label>
+        <input type="number" id="resultado" name="resultado"><br></p>
+       
+        <script>
+            function sumar(){
+                
+                //capturar los valores de los input y guardamos en variables 
+                var a =  document.getElementById("a").value; 
+                var b =  document.getElementById("b").value;
+                
+                //definimos las variables de salida
+                var resultado;
+                </script>
+                 }
+
+</body>
+</html>
